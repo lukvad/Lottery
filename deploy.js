@@ -3,10 +3,8 @@ const { Web3 } = require('web3');
 const { abi, bytecode } = require('./compile');
 
 const provider = new HDWalletProvider(
-  'crystal sand derive absent just art question ticket autumn company add document',
-  // remember to change this to your own phrase!
-  'https://sepolia.infura.io/v3/6ef223538dd746fbaed0b93915ba4289'
-  // remember to change this to your own endpoint!
+
+
 );
 const web3 = new Web3(provider);
 
